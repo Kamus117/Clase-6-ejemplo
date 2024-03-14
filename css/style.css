@@ -68,9 +68,9 @@ main{
 /*     flex-direction: row;
     flex-wrap: wrap; */
 
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 
-    align-content: center;
+    align-content: space-between;
 
 /*     gap: 15px; */
 
@@ -78,7 +78,7 @@ main{
     row-gap: 20px; */
 
 
-    background-color: rgba(0, 0, 0, 0.647);
+    background-color: rgba(224, 22, 184, 0.228);
     height: 800px;
     width: 90%;
     margin-left: 5%;
@@ -105,8 +105,8 @@ main{
     background-color:var(--third-color) ;
 
     flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 10px;
+    flex-shrink: 1;
+    flex-basis: auto;
 }
 .a4{
     background-color:var(--fourth-color) ;
